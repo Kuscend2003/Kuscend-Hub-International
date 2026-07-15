@@ -1,44 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
 
     font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: white;
     color: #333;
+    background: white;
 
 }
 
 
 
-header {
+/* Navigation */
+
+.navbar {
 
     background-color: #355E3B;
     color: white;
-    text-align: center;
-    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+}
+
+
+.logo h1 {
+
+    font-size: 35px;
+
+    color: #D4AF37;
+
+}
+
+
+.logo span {
+
+    font-size: 14px;
 
 }
 
 
 
-main {
+nav a {
 
-    text-align: center;
-    padding: 50px;
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+    font-weight: bold;
 
 }
 
 
 
-button {
+.nav-buttons button {
 
-    background-color: #D4AF37;
-    color: black;
+    padding: 10px 20px;
+
+    border-radius: 5px;
 
     border: none;
-
-    padding: 15px 25px;
-
-    margin: 10px;
 
     cursor: pointer;
 
@@ -46,11 +76,186 @@ button {
 
 
 
-input {
+.login {
 
-    width: 350px;
+    background: transparent;
+
+    color: white;
+
+}
+
+
+
+.register {
+
+    background: #D4AF37;
+
+}
+
+
+
+
+
+/* Hero */
+
+.hero {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+}
+
+
+
+.hero h2 {
+
+    font-size: 45px;
+
+    max-width: 800px;
+
+    margin: auto;
+
+}
+
+
+
+.hero p {
+
+    margin: 25px;
+
+    font-size: 18px;
+
+}
+
+
+
+.search-box input {
+
+    width: 450px;
 
     padding: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+
+.search-box button {
+
+    padding: 15px 25px;
+
+    background: #355E3B;
+
+    color: white;
+
+    border: none;
+
+}
+
+
+
+.hero-buttons button {
+
+    margin: 20px 10px;
+
+    padding: 15px 30px;
+
+    border-radius: 5px;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+
+
+.primary {
+
+    background:#355E3B;
+
+    color:white;
+
+}
+
+
+
+.secondary {
+
+    background:#D4AF37;
+
+}
+
+
+
+
+
+/* Sections */
+
+
+.trust,
+.categories,
+.suppliers {
+
+    padding: 60px;
+
+    text-align:center;
+
+}
+
+
+
+.trust-container,
+.category-container,
+.supplier-container {
+
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+
+}
+
+
+
+.card,
+.supplier-card {
+
+
+    width:300px;
+
+    padding:30px;
+
+    background:#f5f5f5;
+
+    border-radius:10px;
+
+
+}
+
+
+
+.supplier-card button {
+
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:#355E3B;
+
+    color:white;
+
+    border:none;
 
 }
 
@@ -58,12 +263,103 @@ input {
 
 footer {
 
-    background-color: #333;
+
+    background:#333;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+
+}
+/* KHI Slider Fix */
+
+.hero {
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+
+.slide {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    display: none;
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.slide.active {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.hero-content {
 
     color: white;
 
     text-align: center;
 
-    padding: 20px;
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 800px;
+
+}
+
+
+.overlay {
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0,0,0,0.5);
+
+}
+
+
+
+.search-box {
+
+    margin: 25px 0;
+
+}
+
+
+.search-box input {
+
+    padding: 15px;
+
+    width: 350px;
+
+}
+
+
+.search-box button {
+
+    padding: 15px 25px;
 
 }
