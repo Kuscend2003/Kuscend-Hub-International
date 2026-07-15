@@ -363,3 +363,24 @@ footer {
     padding: 15px 25px;
 
 }
+/* KHI Slider Background Images */
+
+.slide:nth-child(1) {
+
+    background-image: url("../images/rwanda.jpg");
+
+}
+
+
+.slide:nth-child(2) {
+
+    background-image: url("../images/africa.jpg");
+
+}
+
+
+.slide:nth-child(3) {
+
+    background-image: url("../images/global.jpg");
+
+}
