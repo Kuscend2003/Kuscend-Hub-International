@@ -108,7 +108,7 @@ nav a {
 
 
 
-.hero h2 {
+.hero h1 {
 
     font-size: 45px;
 
@@ -382,5 +382,728 @@ footer {
 .slide:nth-child(3) {
 
     background-image: url("../images/global.jpg");
+
+}
+/* How KHI Works Section */
+
+.how-it-works {
+
+    padding: 70px 8%;
+    background: #ffffff;
+
+}
+
+
+.section-title {
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+.section-title h2 {
+
+    color: #4b5320;
+    font-size: 35px;
+
+}
+
+
+.section-title p {
+
+    color: #555;
+    font-size: 18px;
+
+}
+
+
+
+.works-container {
+
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.works-box {
+
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #f7f7f7;
+
+}
+
+
+
+.works-box h3 {
+
+    text-align: center;
+    color: #b8860b;
+    margin-bottom: 25px;
+
+}
+
+
+
+.work-card {
+
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+
+}
+
+
+
+.work-card:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+
+.work-card span {
+
+    font-size: 30px;
+
+}
+
+
+.work-card h4 {
+
+    margin: 10px 0;
+
+    color: #333;
+
+}
+
+
+.work-card p {
+
+    color: #666;
+
+}
+/* What is KHI Section */
+
+.about-khi {
+
+    padding: 70px 10%;
+    text-align: center;
+
+}
+
+
+.about-khi h2 {
+
+    color: #4b5320;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+
+
+.about-khi p {
+
+    max-width: 900px;
+    margin: 15px auto;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+
+}
+/* Categories Section */
+
+.categories {
+
+    padding: 70px 8%;
+
+    background: #f8f8f8;
+
+}
+
+
+.category-container {
+
+    display: flex;
+
+    gap: 25px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.card {
+
+    background: white;
+
+    width: 230px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+
+.card span {
+
+    font-size: 40px;
+
+}
+
+
+
+.card h3 {
+
+    color: #4b5320;
+
+}
+
+
+
+.card p {
+
+    color: #666;
+
+    line-height: 1.5;
+
+}
+
+
+
+.card button {
+
+    margin-top: 15px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #b8860b;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+/* Supplier Section */
+
+
+.suppliers {
+
+    padding: 70px 8%;
+
+}
+
+
+.supplier-container {
+
+    display: flex;
+
+    gap: 30px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.supplier-card {
+
+    width: 280px;
+
+    background: white;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+    transition: 0.3s;
+
+}
+
+
+
+.supplier-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+
+.supplier-logo {
+
+    font-size: 45px;
+
+}
+
+
+
+.supplier-card h3 {
+
+    color: #4b5320;
+
+}
+
+
+
+.verified {
+
+    color: green;
+
+    font-weight: bold;
+
+}
+
+
+
+.supplier-card button {
+
+    margin: 8px;
+
+    padding: 10px 15px;
+
+    border-radius: 20px;
+
+    border: none;
+
+    background: #b8860b;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+/* Footer */
+
+footer {
+
+    background: #4b5320;
+    color: white;
+    padding: 50px 8% 20px;
+
+}
+
+
+.footer-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 35px;
+
+}
+
+
+
+.footer-box h3 {
+
+    color: #d4af37;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.footer-box p {
+
+    line-height: 1.6;
+
+    color: #ffffff;
+
+}
+
+
+
+.copyright {
+
+    text-align: center;
+
+    margin-top: 35px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid rgba(255,255,255,0.3);
+
+}
+
+/* Footer */
+
+footer {
+
+    background: #4b5320;
+    color: white;
+    padding: 50px 8% 20px;
+    text-align: center;
+
+}
+
+
+.footer-brand {
+
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+
+.footer-brand h3 {
+
+    color: #d4af37;
+    font-size: 28px;
+
+}
+
+
+.footer-brand p {
+
+    line-height: 1.6;
+
+}
+
+
+
+.footer-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+
+
+.footer-box h3 {
+
+    color: #d4af37;
+
+}
+
+
+
+.footer-box p {
+
+    margin: 8px 0;
+
+}
+
+
+
+.copyright {
+
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+
+}
+/* Compact Footer */
+
+footer {
+
+    background: #4b5320;
+    color: white;
+    padding: 30px 8% 15px;
+    text-align: center;
+
+}
+
+
+.footer-brand {
+
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 25px;
+
+}
+
+
+.footer-brand h3 {
+
+    color: #d4af37;
+    font-size: 24px;
+    margin-bottom: 8px;
+
+}
+
+
+.footer-brand p {
+
+    line-height: 1.4;
+    margin: 0;
+
+}
+
+
+
+.footer-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+
+
+.footer-box h3 {
+
+    color: #d4af37;
+    margin-bottom: 10px;
+
+}
+
+
+
+.footer-box p {
+
+    margin: 5px 0;
+
+}
+
+
+
+.copyright {
+
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+
+}
+/* Section Title Improvements */
+
+.section-title {
+
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+.section-title h2 {
+
+    color: #355E3B;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+
+.section-title p {
+
+    color: #555;
+    font-size: 18px;
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.6;
+
+}
+/* Trust Section */
+
+.why-khi {
+
+    padding: 80px 8%;
+
+}
+
+
+.why-khi h2 {
+
+    margin-bottom: 35px;
+
+}
+
+
+.why-card {
+
+    padding: 30px;
+
+}
+/* Buyer Supplier Headings */
+
+.works-box h3 {
+
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+.work-card {
+
+    margin-bottom: 20px;
+
+}
+
+/* Why Choose KHI spacing fix */
+
+.why-khi h2 {
+
+    margin-bottom: 35px;
+
+}
+
+
+.why-khi .card,
+.why-khi .why-card {
+
+    padding: 30px;
+
+}
+
+
+.why-khi {
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+/* Marketplace */
+
+.marketplace-header{
+
+padding:80px 8%;
+text-align:center;
+background:#f4f7f2;
+
+}
+
+
+.marketplace-header h1{
+
+font-size:45px;
+color:#355E3B;
+
+}
+
+
+.market-search{
+
+margin-top:30px;
+
+}
+
+
+.market-search input{
+
+width:450px;
+padding:15px;
+
+border:1px solid #ccc;
+border-radius:5px;
+
+}
+
+
+.market-search button{
+
+padding:15px 25px;
+background:#D4AF37;
+border:none;
+cursor:pointer;
+
+}
+
+
+
+.products{
+
+padding:70px 8%;
+
+}
+
+
+
+.products h2{
+
+text-align:center;
+color:#355E3B;
+
+}
+
+
+
+.product-container{
+
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+
+
+
+.product-card{
+
+width:300px;
+padding:30px;
+
+background:white;
+
+border-radius:15px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.product-card h3{
+
+color:#355E3B;
+
+}
+
+
+.product-card button{
+
+margin-top:15px;
+
+padding:12px 20px;
+
+background:#355E3B;
+
+color:white;
+
+border:none;
+
+border-radius:5px;
 
 }
